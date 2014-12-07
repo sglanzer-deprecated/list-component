@@ -1,0 +1,7 @@
+{{#ciena-list model=model.tasks}}
+    {{#each task in model.tasks}}
+        {{#ciena-list-item model=task}}
+            {{task.name}}
+        {{/ciena-list-item}}
+    {{/each}}
+{{/ciena-list}}
